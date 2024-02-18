@@ -1,4 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+/*-------Main Container------*/
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.logo-div{
+    margin: 20% auto; 
+    height: 50vh;
+}
+.main-container .logo-div .logo{
+    font-family: "Press Start 2P", system-ui;
+    color: #fff;
+    font-size: 6vw;
+}
+.main-container .logo-div #btn-movie{
+    margin : 5vh 22vw;
+    height: 88px;
+    width: 341px;
+    border-radius: 8px;
+    background-color: #F22D2D;
+    color: #fff;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
